@@ -4,7 +4,18 @@
 
 只针对安卓手机  
 
-# 使用
+# 小白用apk版本
+1.下载apk并安装 https://raw.githubusercontent.com/JiajunJiang/RobFood/main/Release/%E7%BE%8E%E5%9B%A2%E4%B9%B0%E8%8F%9C%E5%8A%A9%E6%89%8B_v1.0.0.apk  
+2.美团买菜添加好需要的物资 并切换到购物车界面  
+3.启动本软件 并开启无障碍模式  
+4.等待付款  
+
+## APK测试方案
+可以先定位一个北京的地址  
+添加几样东西测试一下   
+看看能不能成功付款并跳转到付款界面
+
+# 程序员源码使用版本
 主要依赖于 AutoJsPro 开发 https://pro.autojs.org/  
 相关调试文档可参考 https://pro.autojs.org/docs/#/zh-cn/?id=%e7%bb%bc%e8%bf%b0  
 
@@ -34,5 +45,6 @@ https://blog.autojs.org/2021/07/05/vscode-debug/
 针对上海疫情大家买不到菜的临时解决方案  
 如果关注的人比较多的话 可能会继续出盒马/叮咚/每日优鲜的版本  
 希望疫情能赶快好起来吧  
+上海目前物资也有限，请勿使用本软件过度囤货，大家好才是真的好
 
 感谢 @zelbloo 对本项目做出的贡献
