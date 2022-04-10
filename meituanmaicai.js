@@ -38,7 +38,7 @@ const start = () => {
 	{
 		console.log('立即支付')
 		clickPay()
-		sleep(500)
+		sleep(50)
 		start()
 		console.log('抢到了')
 	} 
@@ -46,40 +46,48 @@ const start = () => {
 	{
 		console.log('放弃机会')
 		clickGiveup()
-		sleep(500)
+		sleep(50)
 		start()
 	} 
-	else if (hasText('结算人数')) 
+	else if (hasText('前方拥堵')) 
 	{
 		console.log('前方拥堵')
 		clickBusy()
-		sleep(500)
+		sleep(50)
 		start()
 	} 
 	else if (hasText('当前不在可下单时段') || hasText('很抱歉')) 
 	{
 		console.log('当前不在可下单时段')
 		clickKnow()
-		sleep(500)
+		sleep(50)
 		start()
+
 	} 
 	else if (hasText('配送运力已约满') ) 
 	{
 		console.log('已约满')
 		clickFull()
-		sleep(500)
+		sleep(50)
+		start()
+	} 
+	else if (hasText('订单已约满') ) 
+	{
+		console.log('已约满')
+		clickFull()
+		sleep(50)
 		start()
 	} 
 	else if (hasText("结算"))
 	{
 		console.log("结算")
 		clickSettle()
-		sleep(500)
+		sleep(50)
 		start()
 	} 
 	else 
 	{
-		sleep(500)
+		sleep(50)
 		start()
 	}
 }
