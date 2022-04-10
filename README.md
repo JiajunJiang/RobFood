@@ -7,7 +7,7 @@
 可以参考源码自行拓展 叮咚买菜 盒马 每日有限等
 
 # 小白用apk版本
-1.下载apk并安装 https://github.com/JiajunJiang/RobFood/blob/main/Release/%E7%BE%8E%E5%9B%A2%E4%B9%B0%E8%8F%9C%E5%8A%A9%E6%89%8B_v1.0.0.apk
+1.下载apk并安装 https://github.com/JiajunJiang/RobFood/blob/main/Release/%E7%BE%8E%E5%9B%A2%E4%B9%B0%E8%8F%9C%E5%8A%A9%E6%89%8B_v1.0.1.apk
 2.美团买菜添加好需要的物资 并切换到购物车界面  
 3.启动本软件 并开启无障碍模式  
 4.等待付款  
