@@ -71,6 +71,14 @@ const start = () => {
 		sleep(50)
 		start()
 	} 
+	else if (hasText('返回购物车') ) 
+	{
+		console.log('返回购物车')
+		clickBusy()
+		sleep(50)
+		swipe(500,800,500,300,1000)
+		start()
+	} 
 	else if (hasText('订单已约满') ) 
 	{
 		console.log('已约满')
